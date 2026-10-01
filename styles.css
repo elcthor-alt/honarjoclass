@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.book-box a {
+  text-align: center;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(0, 22, 52), rgb(150, 141, 41));
+  color: white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+}
+
+/*============ class FF1 */
+.classff1 {
+  display: none;
+}
+.classff1.on {
+  display: block;
+}
+/*============ class FF1 */
+/* =========== class FF4 */
+.classff4 {
+  display: none;
+}
+.classff4.on {
+  display: block;
+}
+/* ===========  class FF4 */
+
+/* =========== wrong IMG */
+.wrong {
+  display: none;
+  width: 350px;
+}
+.wrong.on {
+  display: block;
+}
+/* =========== wrong IMG */
